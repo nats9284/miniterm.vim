@@ -7,7 +7,7 @@ g:miniterm_proportion = get(g:, "miniterm_proportion", 0.28)
 g:miniterm_position = get(g:, "miniterm_position", "bottom")
 g:miniterm_dont_list = get(g:, "miniterm_dont_list", false)
 g:miniterm_dont_map = get(g:, "miniterm_dont_map", false)
-
+g:miniterm_shell = "cmd.exe"
 # Helper to map in normal and terminal mode
 def TerminalMap(map: string, com: string)
     execute $"nnoremap <silent> {map} {com}"
